@@ -1,0 +1,8 @@
+.block__list{
+    height: 100vh;
+    width: min-content;
+    background-color: #3281a5;
+}
+.header__list{
+    padding: 20px;
+}

@@ -1,0 +1,29 @@
+.current__note{
+    width: 70vmin;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #000000a2 3px 3px 4px;
+    background-color: aliceblue;
+    color: #000000;
+    position: relative;
+}
+.btn__content:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+.title__cur__note{
+    color: #0c3333;
+    font-weight: bolder;
+    font-size: 4vh;
+    margin-top: 20px;
+}
+.text__cur__note{
+    height: max-content;
+    padding-bottom: 20px;
+}
+.date__cur__note{
+    position: absolute;
+    bottom: 20px;
+    margin-left: 50vmin;
+}
