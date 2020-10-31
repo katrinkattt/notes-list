@@ -3,11 +3,11 @@ import Note from './note'
 import './blockList.css'
 
 export default function BlockLIst(props) {
-    // }
+
     return (
         <div className="block__list">
             <div className="header__list">
-                <Btn text="Добавить" />
+                <Btn text="Добавить" func={props.funcAdd}/>
             </div>
             <div className="main__list">
                 {
@@ -19,4 +19,3 @@ export default function BlockLIst(props) {
         </div>
     )
 }
-// }
