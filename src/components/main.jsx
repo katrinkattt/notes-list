@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import Btn from './btn'
-import BlockLIst from './blockList'
-import CurrentNote from './currentNote'
-import Form from './form'
+import Btn from './btn/btn'
+import BlockLIst from './blockList/blockList'
+import CurrentNote from './currNote/currentNote'
+import Form from './form/form'
 
 export default function Main() {
 
